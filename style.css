@@ -95,15 +95,39 @@ ul {
     font-size: 30px;
     color:#1F2937;
     font-weight: 700;
-    padding: 36px
+    padding: 48px
 }
-.body {
+.body1 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 250px
+    justify-content: center;
+    gap: 32px;
 }
 
+.body2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 70px;
+}
+.card {
+    font-size: 18px;
+    color: rgb(140, 150, 156);
+    padding: 8px;
+    width: 125px;
+    text-align: center;
+}
+.box {
+    padding: 10px;
+    border: solid 3px;
+    border-color:#3882F6;
+    border-radius: 25px;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 4px;
+    text-align: center;
+    color: rgb(140, 150, 156);
+}
 .quote {
     background-color: #E5E7EB;
     font-size: 36px;
