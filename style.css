@@ -1,0 +1,82 @@
+body {
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.nav {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+.hdero-align {
+    display: flex;
+    
+}
+
+.header .signup {
+    background-color: #3882F6;
+    color: white;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.placeholder-image {
+    background-color: rgb(100, 110, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    max-width: 175px;
+}
+
+a {
+    text-decoration: none;
+    color: #cccccd;
+    display: flex;
+}
+
+.title {
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    padding-right: 12px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: auto;
+}
+
